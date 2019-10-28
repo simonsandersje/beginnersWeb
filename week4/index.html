@@ -3,35 +3,38 @@
   <head>
     <title>Dear Diary</title>
     <style>
+      body {
+        margin: 0;
+      }
       header {
-        background-color:aqua;
+        background-color: aqua;
         padding: 20px;
       }
       h1 {
-        font-family: cursive;
-        color:blueviolet;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: blueviolet;
+      }
+      h2 {
+        font-size: 14px;
+        margin-left: 20px;
+      }
+      main {
+        display: flex;
       }
       nav {
-        float: left;
-        width: 30%;
-      }
-      section {
-        float: right;
-        width: 70%;
+        min-width: 160px;
       }
       footer {
-        float: left;
-        clear:  both;
         width: 100%;
-        border-top: 1px solid #999999;
+        border-top: 1px solid #00ffff;
       }
       .footer-links {
         list-style: none;
       }
       .footer-links li {
         display: inline-block;
-        padding:10px;
-        border-left: 1px solid #999999;
+        padding: 10px;
+        border-left: 1px solid #00ffff;
       }
       .footer-links li:first-child {
         border-left: 0;
@@ -44,13 +47,10 @@
     </header>
     <main>
       <nav>
+        <h2>Months</h2>
         <ul>
-          <li>Months
-            <ul>
-              <li><a href="diary-pages/201909.html">September</a></li>
-              <li><a href="diary-pages/201910.html">October</a></li>
-            </ul>
-          </li>
+          <li><a href="diary-pages/201909.html">September</a></li>
+          <li><a href="diary-pages/201910.html">October</a></li>
         </ul>
       </nav>
       <section>
@@ -66,18 +66,3 @@
     </footer>
   </body>
 </html>
-<!--
-
-
-div
-span
-
-header
-nav
-main
-section
-article
-aside
-footer
-
--->
