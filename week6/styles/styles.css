@@ -43,6 +43,24 @@ form p label {
   display: inline-block;
   width: 200px;
 }
+fieldset {
+  margin: 20px 0;
+  border: 1px solid #cccccc;
+}
+input {
+  border: 1px solid #cccccc;
+}
+textarea {
+  border: 1px solid #cccccc;
+}
+input[type="submit"] {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  background-color: aqua;
+  border: 1px solid darkcyan;
+  border-radius: 10px;
+  padding: 10px;
+}
 nav {
   min-width: 160px;
 }
