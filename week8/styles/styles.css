@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap'); /* https://fonts.google.com/?category=Handwriting&selection.family=Homemade+Apple */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #ddd;
+  background-image: url("../images/banner-background.png");
+  background-size: 100% 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+  font-family: "Homemade Apple", cursive, sans-serif;
+  font-size: 44px;
+  color: blueviolet;
+  font-weight: 500;
+  margin: 0 0 0 40px;
+}
+h2 {
+  font-size: 14px;
+  margin-left: 20px;
+}
+main {
+  display: flex;
+}
+section h2 {
+  font-family: "Homemade Apple", cursive, sans-serif;
+  color: #555;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 0;
+}
+section h3 {
+  font-family: "Homemade Apple", cursive, sans-serif;
+  color: #555;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 0;
+}
+section p {
+  font-style: italic;
+}
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section ul li {
+  font-size: 18px;
+  text-decoration: none;
+}
+section ul li a {
+  text-decoration: none;
+}
+form p {
+  display: block;
+}
+form p label {
+  display: inline-block;
+  width: 200px;
+}
+fieldset {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+input {
+  border: 1px solid #ccc;
+}
+textarea {
+  border: 1px solid #ccc;
+}
+input[type="submit"] {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  background-color: lightgray;
+  border: 1px solid darkcyan;
+  border-radius: 10px;
+  padding: 10px;
+}
+nav {
+  min-width: 160px;
+}
+nav h2 {
+  font-size: 16px;
+  color: #999;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+}
+nav ul li {
+  padding: 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #999;
+}
+nav ul li a:hover {
+  background-color: #f3f3f3;
+}
+table {
+  border-collapse: collapse;
+  width:90%
+}
+tr, th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 0;
+}
+thead, tbody {
+  padding: 0;
+  margin: 0;
+}
+thead {
+  background-color: #f3f3f3;
+}
+footer {
+  width: 100%;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  margin-top: 20px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+.footer-links li {
+  display: inline-block;
+  border-left: 1px solid #f3f3f3;
+  margin: 0 -2px;
+}
+.footer-links li:last-child {
+  border-right: 1px solid #f3f3f3;
+}
+.footer-links li:hover {
+  background-color: #f3f3f3;
+}
+.footer-links li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #999;
+}
+.footer-links li:first-child {
+  border-left: 0;
+}

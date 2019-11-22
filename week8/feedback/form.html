@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <title>Dear Diary</title>
+    <link type="text/css" rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Dear Diary</h1>
+    </header>
+    <main>
+      <nav>
+        <h2>Progress</h2>
+        <ul>
+          <li><a href="../months/201909.html">September</a></li>
+          <li><a href="../months/201910.html">October</a></li>
+          <li><a href="../months/201911.html">November</a></li>
+        </ul>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="../info-pages/tags.html">HTML tags</a></li>
+          <li><a href="../info-pages/resources.html">Resources</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2>Give us your feedback:</h2>
+        <form action="result.html" method="GET" id="ddForm">
+          <fieldset>
+            <legend>Your details</legend>
+            <p>
+              <label for="name">Name:</label> 
+              <input type="text" id="name" name="name">
+            </p>
+            <p>
+              <label for="email">Email address:</label>
+              <input type="text" id="email" name="email">
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password">
+            </p>
+            <p>
+              <label for="comments">Comments:</label>
+              <textarea rows="5" cols="40" id="comments" name="comments"></textarea>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Preferences</legend>
+            <p><label for="heardAbout">How did you hear about us?</label>
+              <select id="heardAbout" name="heardAbout">
+                <option>Please select...</option>
+                <option>Word of mouth</option>
+                <option>Google</option>
+                <option>TV Advert</option>
+                <option>Newspaper</option>
+              </select>
+            </p>
+            <p>Preferences:
+              <br><label for="checkBox1">Tea </label><input type="checkbox" id="checkBox1" name="checkBox1" value="tea">
+              <br><label for="checkBox2">Coffee </label><input type="checkbox" id="checkBox2" name="checkBox2" value="coffee">
+              <br><label for="checkBox3">Hot chocolate </label><input type="checkbox" id="checkBox3" name="checkBox3" value="hot chocolate">
+              <br><label for="checkBox4">Water </label><input type="checkbox" id="checkBox4" name="checkBox4" value="water">
+            </p>
+            <p>
+              Are you happy?
+              <br><label for="radioy">Yes </label><input type="radio" name="happy" id="radioy" value="yes">
+              <br><label for="radion">No </label><input type="radio" name="happy" id="radion" value="no">
+            </p>
+          </fieldset>
+          <input type="hidden" name="hidden" value="true">
+          <input type="submit" value="Submit your feedback">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul class="footer-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../months/index.html">Months</a></li>
+        <li><a href="../feedback/form.html">Feedback</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

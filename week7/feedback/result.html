@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <title>Dear Diary</title>
+    <link type="text/css" rel="stylesheet" href="../styles/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Dear Diary</h1>
+    </header>
+    <main>
+      <nav>
+        <h2>Months</h2>
+        <ul>
+          <li><a href="../diary-pages/201909.html">September</a></li>
+          <li><a href="../diary-pages/201910.html">October</a></li>
+        </ul>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="../info-pages/tags.html">HTML tags</a></li>
+        </ul>
+      </nav>
+      <section>
+
+        <!-- Add this section to your main <section> - from here -->
+        <h2>You gave us your feedback:</h2>
+        <div id="formResults"></div>
+        <script>
+            var querystring = window.location.search.substring(1);
+            var arrQuery = querystring.split("&");
+            var htmlString = "";
+            for (i=0; i<arrQuery.length; i++) {
+              htmlString = htmlString + 
+                "<p>" + 
+                  arrQuery[i].substr(0, arrQuery[i].indexOf("=")) + 
+                  ": " + 
+                  arrQuery[i].substr(arrQuery[i].indexOf("=") + 1) + 
+                "</p>";
+            }
+            var container = document.getElementById("formResults");
+            container.innerHTML = decodeURIComponent(htmlString.replace(/\+/g, " "));
+          </script>
+        <!-- Add this section to your main <section>  - to here -->
+
+      </section>
+    </main>
+    <footer>
+      <ul class="footer-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../diary-pages/months.html">Months</a></li>
+        <li><a href="../feedback/form.html">Feedback</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

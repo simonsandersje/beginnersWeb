@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: aqua;
+  padding: 20px;
+}
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: blueviolet;
+}
+h2 {
+  font-size: 14px;
+  margin-left: 20px;
+}
+main {
+  display: flex;
+}
+section h2 {
+  font-size: 24px;
+  margin-left: 0;
+}
+section h3 {
+  font-size: 24px;
+  margin-left: 0;
+}
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section ul li {
+  font-size: 18px;
+  text-decoration: none;
+}
+section ul li a {
+  text-decoration: none;
+}
+form p {
+  display: block;
+}
+form p label {
+  display: inline-block;
+  width: 200px;
+}
+fieldset {
+  margin: 20px 0;
+  border: 1px solid #cccccc;
+}
+input {
+  border: 1px solid #cccccc;
+}
+textarea {
+  border: 1px solid #cccccc;
+}
+input[type="submit"] {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  background-color: aqua;
+  border: 1px solid darkcyan;
+  border-radius: 10px;
+  padding: 10px;
+}
+nav {
+  min-width: 160px;
+}
+footer {
+  width: 100%;
+  border-top: 1px solid #00ffff;
+  margin-top: 20px;
+}
+.footer-links {
+  list-style: none;
+}
+.footer-links li {
+  display: inline-block;
+  padding: 10px;
+  border-left: 1px solid #00ffff;
+}
+.footer-links li a {
+  text-decoration: none;
+}
+.footer-links li:first-child {
+  border-left: 0;
+}
