@@ -52,15 +52,49 @@
           <li>Strings - characters that can be used to make up words</li>
           <li>Boolean - true or false</li>
           <li>Arrays - collection of variables, for example [1, 2, 4, "six", true]</li>
-          <li>Objects - collection of items arranged into key/value pairs:
-            <pre>
-            {
-              name: "Simon",
-              job: "Developer"
-            }
-            </pre>
-          </li>
+          <li>Objects - collection of items arranged into key/value pairs:</li>
         </ul>
+        <pre>
+        {
+          name: "Simon",
+          job: "Developer"
+        }
+        </pre>
+        <p>We also learned about declaring and working with variables, with mathematical operations and string concatenation.</p>
+        <p>We were introduced to the idea of functions, and how they can be used to execute some logic on a variable/variables:</p>
+        <pre>
+        function doSomething() {
+          alert("Doing something");
+        }
+        </pre>
+        <p>We also saw that we can use conditional statements to check the state of variables before executing sections of code.</p>
+        <pre>
+        if (userPressesButtonA) {
+          doFunctionA();
+        } else {
+          doFunctionB();
+        }
+        </pre>
+        <p>We discussed how we can iterate through loops to execute the same action on collections of data.</p>
+        <pre>
+        for (i = 0; i < yourArray.length; i++;) {
+          doSomeAction(yourArray[i])
+        }
+        </pre>
+        <p>We learned about the Document Object Model (DOM) - the way in which the browser represents the HTML page in its memory.</p>
+        <p>The DOM allows us to access the elements on the page as JavaScript objects and allows us to interact with them with the code.</p>
+        <p>We can also use JavaScript to manipulate DOM objects. For example, we can set the background colour of the name field in our form to yellow:</p>     
+        <pre>
+        var inputName = document.getElementById("name");
+        inputName.style = "background-color: yellow;";
+        </pre>  
+        <p>We can also use JavaScript to get information from the DOM. For example, we can retrieve the value entered in the name field of our form:</p>
+        <pre>
+        var inputName = document.getElementById("name");
+        var getTheNameFromTheForm = inputName.value;
+        </pre>
+        <p>In our website project, we learned about using JavaScript to interact with our feedback form to give basic form validation:</p>
+        <img src="../images/screenshot-18112019.png" width="400" />
       </section>
     </main>
     <footer>
